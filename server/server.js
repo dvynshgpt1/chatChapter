@@ -14,8 +14,8 @@ if ('development' == env) {
     app.use(express.static(publicPath));
 }
 
-// const publicPath = path.join(__dirname, '../public');
-// app.use(express.static(publicPath));
+const publicPath = path.join(__dirname, '../public');
+app.use(express.static(publicPath));
 
 // Heroku won't actually allow us to use WebSockets
 // so we have to setup polling instead.

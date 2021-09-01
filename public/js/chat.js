@@ -1,5 +1,5 @@
-// var socket = io('http://localhost:3000/');
 var socket = io('https://chatchap.herokuapp.com/');
+// var socket = io('http://localhost:3000/');
 var form = document.getElementById('send-container');
 var messageInput = document.getElementById('messageInp');
 var messageContainer = document.querySelector('.container');
