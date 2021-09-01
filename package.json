@@ -2,7 +2,7 @@
   "name": "chatchapter",
   "version": "1.0.0",
   "description": "this is my chat app , ChatChapter",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server/server.js",
     "test-watch": "nodemon --exec 'npm test'"
