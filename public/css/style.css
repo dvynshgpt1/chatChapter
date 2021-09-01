@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    display: flex;
+    background-color: rgb(0, 2, 3);
+}
+
+h1{
+    margin: auto;
+    font-family: cursive;
+    font-style: italic;
+    color: rgb(95, 175, 212);
+    font-weight: bolder;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 6vh;
+    left: 47vw;
+}
+
+.container{
+    border: 2px solid black;
+    /* background-color: rgb(214, 139, 78); */
+    position: absolute;
+    top: 20vh;
+    left: 38vw;
+    height: 70vh;
+    width: 25vw;
+    overflow-y: auto;
+}
+
+.message{
+        background-color: yellow;
+        border-radius: 1vh;
+        padding: 1vh;
+        font-family: cursive;
+        font-weight: 600;
+}
+.right{
+   float: right;
+   clear: both;
+   margin-top: 2vh;
+   margin-right: 2%;
+   font-size: 83%;
+}
+.left{
+   float: left;
+   clear: both;
+   margin-top: 15%;
+   margin-left: 2%;
+   font-size: 83%;
+
+}
+
+#send-container{  
+          text-align: center;
+          display: block;
+          margin: auto;
+          max-width: 987px;
+          width: 100%;
+         
+}
+#messageInp{
+    width: 21%;
+    height: 5%;
+    position: absolute;
+    top: 90%;
+    left: 38.1%;
+    border: 2px solid yellow;
+
+}
+button{
+    padding: .555%;
+    background-color:white;
+    position: fixed;
+    top: 90%;
+    left: 59.2%;
+}
+
+@media screen and (max-width:844px) { 
+ 
+
+.logo{
+    left: 38.1vw;
+    top: 7vh;
+ }
+
+ .left{
+     font-size: 76%;
+ }
+ .right{
+     font-size: 76%;
+ }
+
+ button{
+    left: 76.2%;
+    padding: 2.4%;
+ }
+ .container{
+       left: 10%;
+       width: 80vw; 
+       /* background-color: white; */
+    }
+    #messageInp{
+        width: 65vw;
+        left: 10.6%;
+   }
+ 
+}
+
+
